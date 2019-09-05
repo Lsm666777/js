@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单控件</title>
+	<style tepy="text/css">
+	.username{
+		border: 0 none;  /*去掉边框*/
+		outline-style:none;
+		background:#ccc;
+		border: 1px dashed green;
+	}
+	.username:focus{      /*文本框点击切换背景图*/
+		background:red;
+
+	}
+	.email{
+		border: 0 none;
+		outline-style: none;
+		border-bottom: 1px blue dotted;
+	}
+
+	.search{
+		border: 0 none;
+		outline-style: none;
+		border: 1px solid blue;
+	}
+	
+	/*label for="id"	获取光标焦点*/
+
+	</style>
+	
+</head>
+<body>
+	<label for="username">用户名：</label><input type="text" class="username" id="username"><br>
+	邮箱：<input type="text" class="email"><br>
+	搜索一下：<input type="text" class="search"><br>
+</body>
+</html>

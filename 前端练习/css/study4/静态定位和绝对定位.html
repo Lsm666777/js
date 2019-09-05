@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style tepy="text/css">
+	body{margin:0;}
+	.father{
+			width: 300px;
+		height: 300px;
+		background-color: green;
+		position: absolute;
+	}
+	.box{
+		width: 100px;
+		height: 100px;
+		background-color: red;
+		position: absolute;
+	/*	left: 200px;*/
+
+	}
+	
+	/*position: static;	默认。
+	position: absolute; 1、元素使用绝对定位之后不占据原来的位置（脱标）
+						2、元素使用绝对定位，位置是从浏览器出发。
+						3、嵌套的盒子，父盒子没有实用定位，子盒子绝对定位，字和字位置从浏览器出发。
+						4、嵌套的盒子，父盒子绝对定位，子盒子绝对定位，字和字位置从父盒子出发。
+						5、行内元素使用绝对定位后，转换成了行内块。
+*/
+
+	</style>
+</head>
+<body><div class="father">
+	<div class="box"></div>
+	</div>
+</body>
+</html>

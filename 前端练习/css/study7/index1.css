@@ -1,0 +1,156 @@
+div,body,ul,li p {
+	padding:0;
+	margin:0;
+	font:12px 宋体;
+}
+img,input{
+	border:0 none;
+}
+input{
+	outline-style:none; 
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+ul,li{
+	list-style: none; 
+}
+
+
+/*顶部导航*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.top-nav{
+	height: 26px;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	background-color: #F7F7F7;
+}
+.nav-con{
+	width: 980px;
+	margin:0 auto;
+	height: 26px;
+}
+.con-l{
+	height: 26px;
+	line-height: 26px;
+}
+.con-r li{
+    float: left;
+    background: url(9.css基础七上课资料-下/梅兰商贸练习/images/sj.png) no-repeat right;
+    height: 26px;
+    line-height: 26px;
+}
+.con-r li a{
+	direction: inline-block;
+	height: 26px;
+	padding:0 10px;
+}
+/*logo搜索*/
+.search{
+	/*margin-top: 12px;*/
+	width: 980px;
+	height: 84px;
+    margin:0 auto;
+
+}
+.logo{
+	width: 100px;
+	height: 84px;
+
+}
+.r-search{
+	width: 528px;
+	height: 40px;
+	border:1px solid #C9C9C9;
+	background: #F5F5F5;
+	margin-top: 30px;
+}
+.r-search input[type="text"]{
+    width:419px;
+    height: 28px;
+    border:1px solid #A6A6A6; 
+    float: left;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.r-search input[type="button"]{
+	width: 99px;
+	height: 32px;
+	background: url(9.css基础七上课资料-下/梅兰商贸练习/images/serch.png);
+	float: left;
+	margin-top: 5px;
+}
+/*主导航*/
+.nav{
+	width: 970px;
+	height: 25px;
+	margin:10px auto;
+	border-bottom: 2px solid #0266A3;
+}
+.nav ul li{
+	float: left;
+}
+.nav li a{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding:0 15px;
+	color: #0266A3;
+}
+.nav ul li a:hover{
+	background: #0266A3;
+	color: #fff;
+}
+
+/*!-- 商机市场 -->*/
+.mar{
+	height: 210px;
+	width: 970px;
+	margin: 0 auto;
+	background: red;
+}
+.mar-left{
+	height: 210px;
+	width: 200px;
+	background: #ebf0f6;
+}
+.mar-title{
+	height: 30px;
+	background: #0266A3;
+	color: #fff;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.mar-list{
+	margin-top: 5px;
+}
+.mar-list li{
+	height: 28px;
+	line-height: 28px;
+	padding-left: 39px;
+}
+.mar-list li.icon1{
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/icon_1.png") no-repeat 9px;
+}
+.mar-list li.icon2{
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/icon_2.png") no-repeat 9px;
+}
+.mar-list li.icon3{
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/icon_3.png") no-repeat 9px;
+}
+.mar-list li.icon4{
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/icon_4.png") no-repeat 9px;
+}
+.mar-list li.icon5{
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/icon_5.png") no-repeat 9px;
+}
+.mar-list li.icon6{
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/icon_6.png") no-repeat 9px;
+}
+
