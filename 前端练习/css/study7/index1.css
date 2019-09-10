@@ -1,4 +1,4 @@
-div,body,ul,li p {
+div,body,ul,li p{
 	padding:0;
 	margin:0;
 	font:12px 宋体;
@@ -113,7 +113,7 @@ ul,li{
 	height: 210px;
 	width: 970px;
 	margin: 0 auto;
-	background: red;
+
 }
 .mar-left{
 	height: 210px;
@@ -125,7 +125,7 @@ ul,li{
 	background: #0266A3;
 	color: #fff;
 	line-height: 30px;
-	margin-left: 20px;
+	padding-left: 20px;
 }
 .mar-list{
 	margin-top: 5px;
@@ -154,3 +154,257 @@ ul,li{
 	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/icon_6.png") no-repeat 9px;
 }
 
+
+.mar-right{
+	width: 234px;
+	height: 210px;
+}
+.mar-right img[src="9.css基础七上课资料-下/梅兰商贸练习/images/center-r.png"]{
+	margin-bottom: 10px;
+}
+
+/*建筑材料部分开始*/
+.bud{
+	height:34px;
+	width:948px;
+	margin:14px auto 11px;
+	border-top:#C3D7E4 2px solid;
+	background:#ecf1f7;
+	font-size:14px;
+	line-height: 34px;
+	font-weight:700;
+	padding-left:22px;
+}
+/*建筑材料图片列表*/
+.pro{
+	width: 970px;
+	height: 344px;
+	margin: 0 auto;
+
+}
+.pro-left{
+	width: 727px;
+	height: 344px;
+	border:1px solid #d8d8d8;
+/*	background: #aaa;*/
+}
+.pro-right{
+	width: 228px;
+	height: 344px;
+	border:1px solid #d8d8d8;
+}
+
+.pro-left-t{
+	width: 656px;
+	height: 142px;
+/*	background:#333;*/
+	margin: 15px 0 14px 26px;
+}
+.pro-left-foot{
+	width: 656px;
+	height: 142px;
+/*	background:#333;*/
+	margin: 15px 0 14px 26px;
+}
+
+.pro-pic-l{
+	width: 318px;
+	height: 142px;
+}
+.pro-pic-ll{
+	height: 142px;
+	width: 97px;
+	/*border:1px solid #cacaca;*/
+}
+
+.pro-pic-llt{
+	width: 97px;
+	height: 100px;
+	text-align: center;
+	border:1px solid #cacaca;
+
+
+}
+.pro-pic-llt img{
+	margin-top: 17.5px;
+
+}
+.pro-pic-btn input{
+	width: 98px;
+	height: 26px;
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/buy.png");
+	margin-top: 14px;
+}
+.pro-pic-lr{
+	height: 142px;
+	width: 210px;
+	margin-left: 8px;
+	float: left;
+}
+
+.pro-pic-lr p{
+font-size: 14px;
+}
+.pro-pic-lr p.text1{
+	height: 38px;
+	line-height: 38px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.pro-pic-lr p.text2{
+	height: 45px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+.pro-pic-lr p.text3{
+	height: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.pro-pic-lr p.text4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.pro-pic-lr p span{
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: 700;
+}
+.pro-pic-lr p del{
+	font-size: 12px;
+}
+
+/*建材咨询*/
+.pro-right-nav{
+	height: 28px;
+	line-height: 28px;
+	background: #FBFBFB;
+	padding-left: 15px;
+	border-bottom:1px #dfe6f0 solid;
+}
+.pro-right-list li{
+	height: 24px;
+	line-height: 24px;
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/li_bg.png")no-repeat 10px;
+	padding-left: 25px;
+}
+.pro-right-list ul{
+	margin-top: 11px;
+}
+
+.child{
+	height: 329px;
+	width: 970px;
+	margin: 0 auto;
+
+}
+.child-l{
+	width: 727px;
+	height: 329px;
+}
+.child-l-t{
+	height:23px;
+	width:727px;
+	border-bottom:2px solid #00B0E7;
+}
+.child-l-t a{
+	float: right;
+	line-height: 23px;
+	color: #00B0E7;
+	font-size: 14px;
+}
+.child-l-cen{
+	height: 301px;
+	border:1px solid #CACACA; 
+}
+.child-pic{
+	width: 164px;
+	margin: 5px 0 0 13px;
+	text-align: center;
+}
+.child-pic .t1{
+	height: 43px;
+	margin-top: 9px;
+	margin-bottom: 0;
+}
+
+.child-pic .t2{
+	height: 24px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #999;
+}
+.child-pic .t3{
+	height: 24px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #999;
+}
+.child-pic .t3 span{
+	color: #ff0000;
+}
+.child-pic .t4{
+	height: 24px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+.child-r{
+	height: 326px;
+	width: 218px;
+}
+.child-r img[src="9.css基础七上课资料-下/梅兰商贸练习/images/et_right.png"]{
+	border:1px solid #cbcbcb;
+	margin-bottom: 20px;
+}
+.friendlink{
+	width: 970px;
+	height: 100px;
+	margin: 0 auto;
+	border-top:1px solid #DDDDDD;
+	border-bottom:3px solid #0A7EC3;
+	margin: 10px auto 0;
+}
+.friendlink ul{
+	margin-top:30px;
+}
+.friendlink li{
+	margin-bottom: 14px;
+	padding:0 4px;
+	float: left;
+}
+.frlink{
+	margin-top: 30px;
+	float: left;
+	height: 38px;
+}
+.friendlink li a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+/*底部*/
+.foot{
+	width: 970px;
+	height: 100px;
+	margin: 10px auto;
+	text-align: center;
+
+}
+.foot ul{
+	width: 700px;
+	height: 14px;
+	margin: 15px auto 13px;
+}
+.foot li{
+	float: left;
+	padding: 0 10px;
+	height: 14px;
+	background: url("9.css基础七上课资料-下/梅兰商贸练习/images/footer_bg.png")no-repeat right;
+
+}
+.foot .cont{
+	height: 24px;
+	margin-top: 13px;
+}
