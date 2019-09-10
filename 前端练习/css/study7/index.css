@@ -1,0 +1,56 @@
+body,div,ul,li{
+	padding: 0;
+	margin:0;
+	font:12px 宋体;
+}
+img,input{
+	border:0 none;
+}
+input{
+	outline-style:none; 
+}
+a{
+	text-decoration:none;
+	color: #000;
+	
+}
+ul,li{
+	list-style: none;
+}
+
+/*顶部导航*/
+.top-nav{
+	height: 26px;
+	border-top: 1px solid #d1d1d1;
+	background-color: #f7f7f7;
+}
+.nav-con{
+	width: 970px;
+	margin: 0 auto;
+	height: 26px;
+}
+.con-l{
+	float: left;	
+}
+.con-r ul li{
+    float: left;
+    height: 26px;
+
+}
+.con-r{
+	text-align: right;
+}
+.con-r a{
+	display: inline-block;
+    float: left;
+    background:url("梅兰商贸练习/images/sj.png")no-repeat right;
+    padding:0 10px;
+
+
+}
+.nav-con li{
+	line-height: 26px;
+}
+.con-r a:hover{
+	color: orange;
+}

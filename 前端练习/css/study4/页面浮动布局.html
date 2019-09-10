@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style tepy="text/css">
+	dody,div,p{
+		margin:0;
+		padding: 0;
+	}
+		.header,.main,.footer{
+			width: 500px;
+		}
+		.header{
+			height: 100px;
+			background: blue;
+			margin-bottom: 10px;
+		}
+		.main{
+/*			height: 230px;    */
+			margin-bottom: 10px;
+			/*overflow: hidden;*/    /*清除浮动：但是在盒子溢出情况下不能使用*/
+
+		}
+		.footer{
+			height: 100px;
+			background: green;
+		}
+		.header p,.footer p{
+			text-align:center;
+			font:18px/100px 微软雅黑;
+			color: #fff;
+		}
+		.main p{
+			text-align:center;
+			font:18px/280px 微软雅黑;
+			color: #fff;
+		}
+		.main .content{
+			height: 230px;
+			width: 300px;
+			background-color: pink;
+			float: left;
+		}
+		.main .sidebar{
+			height: 230px;
+			width: 190px;
+			background-color: #000;
+			float: right;
+		}
+		/*伪元素清除浮动*/
+		.clearfix:after{
+			content:".";
+			display: block;
+			height: 0;
+			line-height: 0;
+			visibility: hidden;	 /*隐藏*/
+			clear: both;
+		}
+		/*兼容ie浏览器*/
+		.clearfix{
+			zoom: 1;
+		}
+	</style>
+</head>
+<body>
+	<div class="header"><p>header</p></div>
+	<div class="main clearfix">
+		<div class="content"><p>content</p></div>
+		<div class="sidebar"><p>sidebar</p></div>
+		<!-- 额外标签法 ：清除浮动-->
+		<!-- <div style="clear:both;"></div> -->
+	</div>
+	<div class="footer"><p>footer</p></div>
+</body>
+</html>
+
+

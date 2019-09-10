@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文本输入</title>
+</head>
+<body>
+	<form action="1.python" method="post">
+
+	<!-- 表单 -->
+	<fieldset>
+	<legend align="center">分组信息</legend>
+	</fieldset>
+
+
+	<!-- readonly="readonly" 只读输入框
+	disabled="disabled" 未激活输入框 -->
+
+	<!-- 文本输入框 -->
+	用户名: <input type="text" maxlength="10" name="username" value="账号"><br>
+
+	<!-- 密码输入框 -->
+	密&nbsp;码: <input type="password"><br>
+
+	<!-- 单选框 -->
+	<!-- checked 设置默认选中项 -->
+	<input type="radio" name="sex" checked="checked">男
+	<input type="radio" name="sex">女
+	</form>
+	<img src="../img/bj/user.jpg" alt="" title="文本框输入标签">
+	<img src="../img/bj/dxk.jpg" alt="" title="单选框选择标签"><br>
+
+	<!-- 下拉框 -->
+	省(市):	<select>
+				<optgroup label ="北京">
+				<option>北京</option>
+				<option selected="selected">河北</option>
+				<option>天津</option>
+				<option>上海</option>
+				</optgroup>
+			</select>
+	<!-- 多线下拉框 -->
+			<select multiple="multiple">
+				<option>北京</option>
+				<option selected="selected">河北</option>
+				<option>天津</option>
+				<option>上海</option>
+			</select>
+			<br>
+
+
+			<!-- 多选框 -->
+			<input type="checkbox" checked="checked">抽烟
+			<input type="checkbox">喝酒
+			<input type="checkbox">打游戏
+
+
+			<!-- 多行文本框 -->
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+			<br>
+
+			<!-- 文件上传 -->
+			<input type="file">请选择文件
+			<br>
+
+			<!-- 文件提交按钮 -->
+			<input type="submit">
+			<br>
+
+			<!-- 普通提交按钮 -->
+			<input type="button" value="普通按钮"><br>
+
+			<!-- 图片按钮 -->
+			<input type="image" src="../img/chun.jpg">
+
+			<!-- 重置按钮 -->
+			<input type="reset">
+
+			<!-- html5控件 -->
+			<img src="../img/bj/1564578156(1).jpg" alt="" title="表单控件">
+
+
+	
+	
+</body>
+</html>

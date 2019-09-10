@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style tepy="text/css">
+		.father{
+			width: 300px;
+			height: 300px;
+			background-color: red;
+			position: relative;
+		}
+		.red{
+			width: 100px;
+			height: 100px;
+			background-color: green;
+			position: absolute;
+			right: 10px;
+		}
+/*		position: relative; 相对定位;1、使用相对定位，位置从自身出发。
+									2、位置发生偏移后，还会占据运来的位置。
+									3、父元素相对定位，子元素绝对定位。
+									4、行内元素使用相对定位不能转换为行内块。*/
+	</style>
+</head>
+<body>
+	<div class="father">
+	<div class="red"></div>
+	</div>
+	<div class="green"></div>
+</body>
+</html>
